@@ -14,11 +14,27 @@ Navigate to  `Distributed-System-Project-Uno/receiver-service/cmd/receiver-servi
 
 go run main.go
 
-or
+OR
 
 go build
 chmod +x receiver-service
 ./receiver-service
 
 ```
+## Setup Redis
+
+- Docker already installed
+
+```sh
+Run command : docker-compose --env-file=.env up
+```
+
+OR 
+
+- Docker already installed
+- Python installed
+```sh
+Run command : python3 script.py
+```
+The same above code is called from the script python file
 
